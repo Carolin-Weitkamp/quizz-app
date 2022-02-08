@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/Carolin-Weitkamp/quizz-app/issues"
   },
-  "homepage": "https://github.com/Carolin-Weitkamp/quizz-app#readme"
+  "homepage": "https://github.com/Carolin-Weitkamp/quizz-app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@storybook/addon-actions": "^6.4.18",
+    "@storybook/addon-essentials": "^6.4.18",
+    "@storybook/addon-links": "^6.4.18",
+    "@storybook/html": "^6.4.18",
+    "babel-loader": "^8.2.3"
+  },
+  "dependencies": {}
 }
