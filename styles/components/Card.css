@@ -1,0 +1,26 @@
+.Card {
+  background-color: lightgrey;
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  margin-top: 0;
+}
+
+.Card--error {
+  background-color: lightcoral;
+}
+
+.Card__title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-primary);
+}
+
+.Card__title--large {
+  font-size: 1.2rem;
+}
+
+.Card__content {
+  font-family: monospace;
+}
