@@ -1,0 +1,32 @@
+section {
+  position: relative;
+  top: 100px;
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  padding: 1rem;
+  border: 2px solid rgb(250, 3, 188);
+  border-radius: 8px;
+  background-color: aliceblue;
+  font-size: small;
+}
+
+h3 {
+  color: rgb(79, 39, 199);
+  font-size: large;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  position: absolute;
+  top: -15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid pink;
+  border-radius: 40%;
+  width: 80px;
+  height: 40px;
+  background-color: bisque;
+}

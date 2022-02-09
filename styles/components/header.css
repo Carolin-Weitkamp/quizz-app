@@ -6,15 +6,15 @@ nav {
   top: 0px;
 }
 
-nav ul {
+nav h1 {
   display: flex;
   list-style-type: none;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  background-color: rgb(106, 249, 206);
+  box-shadow: 0px 0px 0px 1px rgba(252, 0, 252, 0.2);
   top: 0px;
-}
-
-nav li {
   padding: 1rem;
+  color: hotpink;
+  font-size: 20px;
 }
