@@ -1,0 +1,20 @@
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 6;
+  /* paddding: 10px; */
+  top: 0px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  top: 0px;
+}
+
+nav li {
+  padding: 1rem;
+}

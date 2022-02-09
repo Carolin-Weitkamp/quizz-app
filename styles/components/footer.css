@@ -1,0 +1,24 @@
+footer {
+  position: fixed;
+  background-color: rgb(203, 203, 203);
+  width: 100%;
+  /* padding: 10px; */
+  bottom: 0;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+}
+
+footer a {
+  display: block;
+  color: hotpink;
+  padding: 1rem;
+}
+
+footer a:hover {
+  color: rgb(90, 187, 115);
+}
