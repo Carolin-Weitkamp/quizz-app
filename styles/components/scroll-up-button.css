@@ -1,0 +1,27 @@
+.scroll-up {
+  position: fixed;
+  bottom: 5rem;
+  left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  width: 60px;
+  height: 60px;
+  border: 2px solid pink;
+  border-radius: 50%;
+}
+
+.scroll-up a {
+  text-decoration: none;
+  color: deeppink;
+  font-size: small;
+}
+
+.scroll-up a:hover {
+  color: darkolivegreen;
+}
+
+.anchor {
+  visibility: hidden;
+}
