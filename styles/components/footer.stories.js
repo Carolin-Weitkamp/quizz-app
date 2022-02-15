@@ -1,9 +1,6 @@
 export default {
   title: "Components/footer",
 };
-export default {
-  title: "Components/Footer",
-};
 
 export const Error = () => /* html */ `
 <footer>
