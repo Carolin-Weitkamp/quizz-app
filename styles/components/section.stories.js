@@ -1,5 +1,5 @@
 export default {
-  title: "Components/Karte",
+  title: 'Components/Karte',
 };
 
 export const Error = () => /* html */ `
