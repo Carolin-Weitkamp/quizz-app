@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run htmlhint && npm run stylelint && npm run prettier:check && npm run eslint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "htmlhint": "npx htmlhint \"**/*.html\"",
     "stylelint": "npx stylelint \"**/*.css\"",
     "prettier:check": "npx prettier --check .",
     "prettier:write": "npx prettier --write .",
-    "eslint": "npx eslint \"**/*.js\"",
-    "prepare": "husky install"
+    "eslint": "npx eslint \"**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -37,8 +36,5 @@
     "stylelint": "^14.5.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^25.0.0"
-  },
-  "dependencies": {
-    "husky": "^7.0.4"
   }
 }
