@@ -11,7 +11,8 @@
     "stylelint": "npx stylelint \"**/*.css\"",
     "prettier:check": "npx prettier --check .",
     "prettier:write": "npx prettier --write .",
-    "eslint": "npx eslint \"**/*.js\""
+    "eslint": "npx eslint \"**/*.js\"",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -36,5 +37,8 @@
     "stylelint": "^14.5.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^25.0.0"
+  },
+  "dependencies": {
+    "husky": "^7.0.4"
   }
 }
