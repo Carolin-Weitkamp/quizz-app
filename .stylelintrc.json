@@ -1,6 +1,9 @@
 {
   "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
   "rules": {
-    "selector-class-pattern": ".*"
+    "selector-class-pattern": ".*",
+    "comment-empty-line-before": null,
+    "alpha-value-notation": null,
+    "color-function-notation": null
   }
 }

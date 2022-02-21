@@ -2,8 +2,9 @@ nav {
   position: fixed;
   width: 100%;
   z-index: 6;
+
   /* paddding: 10px; */
-  top: 0px;
+  top: 0;
 }
 
 nav h1 {
@@ -11,9 +12,9 @@ nav h1 {
   list-style-type: none;
   justify-content: center;
   align-items: center;
-  background-color: rgb(106, 249, 206);
-  box-shadow: 0px 0px 0px 1px rgba(252, 0, 252, 0.2);
-  top: 0px;
+  background-color: rgb(106 249 206);
+  box-shadow: 0 0 0 1px rgba(252 0 252 20%);
+  top: 0;
   padding: 1rem;
   color: hotpink;
   font-size: 20px;

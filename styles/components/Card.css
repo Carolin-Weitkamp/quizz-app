@@ -1,26 +1,79 @@
-.Card {
-  background-color: lightgrey;
-  border-radius: var(--radius);
-  padding: 16px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-  margin-top: 0;
+.card {
+  position: relative;
+
+  /* width: 70%;
+  height: 100%; */
+  width: 80%;
+  max-width: 500px;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid rgb(250 3 188);
+  border-radius: 8px;
+  background-color: aliceblue;
+  font-size: small;
 }
 
-.Card--error {
-  background-color: lightcoral;
+h3 {
+  color: rgb(79 39 199);
+  font-size: large;
+  margin-bottom: 1rem;
 }
 
-.Card__title {
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--color-primary);
+/* .icon {
+  position: absolute;
+  top: -25px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid pink;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(122 117 117);
+} */
+
+.mark-icon-pink {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  width: 40px;
+  display: flex;
+  align-items: center;
 }
 
-.Card__title--large {
-  font-size: 1.2rem;
+.mark-icon-green {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  width: 40px;
+  display: flex;
+  align-items: center;
 }
 
-.Card__content {
-  font-family: monospace;
+.mark-icon-pink--hidden {
+  display: none;
 }
+
+.mark-icon-green--hidden {
+  display: none;
+}
+
+/* .bookmark {
+  background-image: url('../../images/bookmark.svg');
+  /* background-color: black; */
+/* width: 40px; */
+/* height: 40px; */
+/* position: absolute;
+  top: 0px;
+  right: 20px;
+} */
+
+/* .bookmark-marked {
+  background-image: url('../../images/bookmark-green.svg');
+  /* background-color: blue; */
+/* width: 40px; */
+/* position: absolute;
+  top: -10px;
+  right: 20px;
+} */

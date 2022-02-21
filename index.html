@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="styles/styles.css" />
-    <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/scripts.js" type="module" defer></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,44 +18,116 @@
 
     <main>
       <article class="container">
-        <section>
+        <div class="card" data-js="pop-up-answer">
           <h3>Wofür steht CSS?</h3>
-          <div class="icon">MARK</div>
+          <div data-js="bookmark">
+            <img
+              class="mark-icon-pink"
+              data-js="bookmark-pink"
+              src="images/bookmark.svg"
+              alt="Lesezeichen"
+            />
+            <img
+              class="mark-icon-green mark-icon-green--hidden"
+              alt=""
+              data-js="bookmark-green"
+              src="images/bookmark-green.svg"
+            />
+          </div>
+
+          <!-- <div class="bookmark"  alt="Lesezeichen"></div> -->
+
+          <!-- <div class="icon">MARK</div> -->
+
           <p>Beschreibungstext für CSS was kann das bloß sein?</p>
           <p>Wofür wird dieses Kürzel genutzt?</p>
           <button class="show-answer" data-js="answer-button">Antwort</button>
-          <p class="display-toggle" data-js="first-answer">
-            Cascadind Style Sheet
-          </p>
-        </section>
+          <p class="display-toggle" data-js="answer">Cascadind Style Sheet</p>
+        </div>
 
-        <section>
+        <div class="card" data-js="pop-up-answer">
           <h3>Wofür steht XYZ?</h3>
-          <div class="icon">MARK</div>
-          <p>
-            In der Umgangspache viel genutze Redeweise Ganz klasse. so und jetzt
-            du...
-          </p>
-          <input id="input1" type="text" />
-        </section>
+          <div data-js="bookmark">
+            <img
+              class="mark-icon-pink"
+              data-js="bookmark-pink"
+              src="images/bookmark.svg"
+              alt="Lesezeichen"
+            />
+            <img
+              class="mark-icon-green mark-icon-green--hidden"
+              alt=""
+              data-js="bookmark-green"
+              src="images/bookmark-green.svg"
+            />
+          </div>
+          <p>In der Umgangspache viel genutze Redeweise.</p>
+          <button class="show-answer" data-js="answer-button">Antwort</button>
+          <p class="display-toggle" data-js="answer">Dies das jenes</p>
+        </div>
 
-        <section>
-          <h3>Wofür steht XYZ?</h3>
-          <div class="icon">MARK</div>
-          <p>
-            In der Umgangspache viel genutze Redeweise Ganz klasse. so und jetzt
-            du...
-          </p>
-        </section>
+        <div class="card" data-js="pop-up-answer">
+          <h3>Was ist Grün?</h3>
+          <div data-js="bookmark">
+            <img
+              class="mark-icon-pink"
+              data-js="bookmark-pink"
+              src="images/bookmark.svg"
+              alt="Lesezeichen"
+            />
+            <img
+              class="mark-icon-green mark-icon-green--hidden"
+              alt=""
+              data-js="bookmark-green"
+              src="images/bookmark-green.svg"
+            />
+          </div>
+          <p>blabliblubb</p>
+          <button class="show-answer" data-js="answer-button">Antwort</button>
+          <p class="display-toggle" data-js="answer">eine Farbe</p>
+        </div>
 
-        <section>
-          <h3>Wofür steht XYZ?</h3>
-          <div class="icon">MARK</div>
-          <p>
-            In der Umgangspache viel genutze Redeweise Ganz klasse. so und jetzt
-            du...
-          </p>
-        </section>
+        <div class="card" data-js="pop-up-answer">
+          <h3>Wo ist Walter?</h3>
+          <div data-js="bookmark">
+            <img
+              class="mark-icon-pink"
+              data-js="bookmark-pink"
+              src="images/bookmark.svg"
+              alt="Lesezeichen"
+            />
+            <img
+              class="mark-icon-green mark-icon-green--hidden"
+              alt=""
+              data-js="bookmark-green"
+              src="images/bookmark-green.svg"
+            />
+          </div>
+          <p>das ist eine sehr gute Frage?</p>
+          <button class="show-answer" data-js="answer-button">Antwort</button>
+          <p class="display-toggle" data-js="answer">Im Wimmelbuch</p>
+        </div>
+
+        <div class="card" data-js="pop-up-answer">
+          <h3>Wofür steht PC?</h3>
+          <div data-js="bookmark">
+            <img
+              class="mark-icon-pink"
+              data-js="bookmark-pink"
+              src="images/bookmark.svg"
+              alt="Lesezeichen"
+            />
+            <img
+              class="mark-icon-green mark-icon-green--hidden"
+              alt=""
+              data-js="bookmark-green"
+              src="images/bookmark-green.svg"
+            />
+          </div>
+          <p>Hier kann eine Beschreibungstext stehen</p>
+          <button class="show-answer" data-js="answer-button">Antwort</button>
+          <p class="display-toggle" data-js="answer">Personal Computer.</p>
+        </div>
       </article>
     </main>
     <div class="scroll-up">
