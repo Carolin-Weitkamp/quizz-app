@@ -9,7 +9,9 @@ showAnswerButton?.addEventListener('click', () => {
   firstAnswer.classList.toggle('display-toggle');
 });
 */
-//Aktion Textfeld füllen:
+
+/* Aktion Textfeld füllen: ----- fehlt hier wieder was / der Zähler funktioniert nicht mehr??
+------------------------------------------------------------------------*/
 
 const inputForm = document.querySelector('[data-js="input-form"]');
 const inputCounter = document.querySelector('[data-js="input-counter"]');
@@ -22,7 +24,8 @@ inputForm?.addEventListener('input', () => {
   }
 });
 
-// toggle bookmark js  JAN */
+/*------------toggle bookmark von pink zu grün 
+---------------------------------------------------------------------------- */
 
 const bookmarkList = document.querySelectorAll('[data-js="bookmark"]');
 
@@ -36,6 +39,42 @@ bookmarkList.forEach(bookmark => {
   });
 });
 
-// const greenBookmarkList = document.querySelectorAll(
-//   '[data-js="bookmark-green"]'
-// );
+/* ----------------------------------------------
+---------------------------------------------------------------------- */
+const linkHome = document.querySelector('.link-home');
+const linkBoockmarks = document.querySelector('.link-boockmarks');
+const linkCreate = document.querySelector('.link-create');
+const linkProfile = document.querySelector('.link-profile');
+
+const pageHome = document.querySelector('#home');
+const pageBookmarks = document.querySelector('#bookmars');
+const pageCreate = document.querySelector('#create');
+const pageProfile = document.querySelector('#profile');
+
+linkHome.addEventListener('click', () => {
+  pageHome.classList.add('current');
+  pageBookmarks.classList.remove('current');
+  pageCreate.classList.remove('current');
+  pageProfile.classList.remove('current');
+});
+
+linkBoockmarks.addEventListener('click', () => {
+  pageHome.classList.remove('current');
+  pageBookmarks.classList.add('current');
+  pageCreate.classList.remove('current');
+  pageProfile.classList.remove('current');
+});
+
+linkCreate.addEventListener('click', () => {
+  pageHome.classList.remove('current');
+  pageBookmarks.classList.remove('current');
+  pageCreate.classList.add('current');
+  pageProfile.classList.remove('current');
+});
+
+linkProfile.addEventListener('click', () => {
+  pageHome.classList.remove('current');
+  pageBookmarks.classList.remove('current');
+  pageCreate.classList.remove('current');
+  pageProfile.classList.add('current');
+});
