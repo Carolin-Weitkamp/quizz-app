@@ -13,13 +13,12 @@ body {
 }
 
 main {
-
-background-color: black;
+  background-color: black;
   /* background: radial-gradient(
     circle,
     rgba(205, 145, 210, 1) 0%,
     rgba(238, 238, 179, 1) 100% */
-  );
+  /* ); */
   min-height: 100vh; /* wichtig damit hg bis nach ganz unten geht */
 }
 
